@@ -1,0 +1,46 @@
+body {
+    background-color: blueviolet;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.226);
+}
+
+@media (max-width:560px) {
+    section {
+        width: 300px;
+    }
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+div {
+    padding: 10px;
+}
+
+#btn {
+    color: white;
+    height: 30px;
+    background-color: deeppink;
+    border-radius: 3px;
+    font-weight: bold;
+    border: 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
+    cursor: pointer;
+    outline: none;
+}
